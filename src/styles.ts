@@ -9,7 +9,7 @@ export const Container = styled.div`
     padding: 50px 0;
     
 
-    img {width: 250px;}
+    
     * {
         -webkit-font-smoothing: antialiased;
         font-family: Verdana, sans-serif;
@@ -33,6 +33,7 @@ export const Info = styled.div`
 
 export const LogoLink = styled.a`
     display: block;
+    img {width: 250px;}
 `;
 
 export const InfoArea = styled.div`
