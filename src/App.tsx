@@ -58,7 +58,7 @@ export function App() {
                         }
                         setGridItems(tempGrid);
                         setShownCounter(0);
-                    }, 500);
+                    }, 1000);
                 }
                 
                 setMoveCount(moveCount => moveCount + 1);
